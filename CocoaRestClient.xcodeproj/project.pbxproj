@@ -10,7 +10,6 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		2C03E34F16CA2E0F00C7608A /* CRCHTTPHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E34E16CA2E0F00C7608A /* CRCHTTPHeaderCell.m */; };
 		2C954AFA16B9799D00C8D54B /* NSData+gzip.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C954AF916B9799D00C8D54B /* NSData+gzip.m */; };
-		2C954AFD16B97A3200C8D54B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C954AFC16B97A3200C8D54B /* libz.dylib */; };
 		510FDE5317036FDC0024972E /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 510FDE3217036FDC0024972E /* MessagePackPacker.m */; };
 		510FDE5417036FDC0024972E /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 510FDE3417036FDC0024972E /* MessagePackParser+Streaming.m */; };
 		510FDE5517036FDC0024972E /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 510FDE3617036FDC0024972E /* MessagePackParser.m */; };
@@ -24,13 +23,17 @@
 		510FDE5D17036FDC0024972E /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 510FDE5117036FDC0024972E /* NSDictionary+MessagePack.m */; };
 		510FDE5E17036FDC0024972E /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 510FDE5217036FDC0024972E /* readme.md */; };
 		5704EE6A155B533200C55656 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5704EE69155B533200C55656 /* libicucore.dylib */; };
-		5704EE6C155B540900C55656 /* MGSFragaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5704EE6B155B540900C55656 /* MGSFragaria.framework */; };
-		5704EE6D155B563E00C55656 /* MGSFragaria.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5704EE6B155B540900C55656 /* MGSFragaria.framework */; };
 		5704EE85155B9C4200C55656 /* HighlightedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5704EE84155B9C4200C55656 /* HighlightedTextView.m */; };
 		5704EED0155C7BF400C55656 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5704EECF155C7BF400C55656 /* WebKit.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8E03218519EDAAB800CE305B /* MGSFragaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E03218419EDAAB800CE305B /* MGSFragaria.framework */; };
+		8E03218719EDAB1D00CE305B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E03218619EDAB1D00CE305B /* libz.dylib */; };
+		8E03218919EDAB2800CE305B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E03218819EDAB2700CE305B /* Security.framework */; };
+		8E03219019EDABCD00CE305B /* Syntax Definitions in Resources */ = {isa = PBXBuildFile; fileRef = 8E03218E19EDABCD00CE305B /* Syntax Definitions */; };
+		8E03219119EDABCD00CE305B /* SyntaxDefinitions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E03218F19EDABCD00CE305B /* SyntaxDefinitions.plist */; };
+		8E03219219EDADA400CE305B /* MGSFragaria.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E03218419EDAAB800CE305B /* MGSFragaria.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF074F5810F595AF00EE44D8 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AF074F4D10F595AF00EE44D8 /* NSObject+SBJSON.m */; };
 		AF074F5910F595AF00EE44D8 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AF074F4F10F595AF00EE44D8 /* NSString+SBJSON.m */; };
 		AF074F5A10F595AF00EE44D8 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AF074F5110F595AF00EE44D8 /* SBJSON.m */; };
@@ -54,7 +57,7 @@
 		AFBF08C514C32D30000E7411 /* ExportRequestsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF08C414C32D30000E7411 /* ExportRequestsController.m */; };
 		AFBF08E214C4D7EE000E7411 /* CRCDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF08E114C4D7EE000E7411 /* CRCDrawerView.m */; };
 		AFCE79531419B47900E22468 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCE79521419B47900E22468 /* Sparkle.framework */; };
-		AFCE79551419B49F00E22468 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFCE79521419B47900E22468 /* Sparkle.framework */; };
+		AFCE79551419B49F00E22468 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFCE79521419B47900E22468 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		AFCE79571419B54600E22468 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = AFCE79561419B54600E22468 /* dsa_pub.pem */; };
 		AFE1837712E394E5001B1B29 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = AFE1837612E394E5001B1B29 /* LICENSE.txt */; };
 		D714A01D11E8BF7700F5A80B /* CRCFormEncodedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D714A01C11E8BF7700F5A80B /* CRCFormEncodedRequest.m */; };
@@ -73,8 +76,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				8E03219219EDADA400CE305B /* MGSFragaria.framework in CopyFiles */,
 				AFCE79551419B49F00E22468 /* Sparkle.framework in CopyFiles */,
-				5704EE6D155B563E00C55656 /* MGSFragaria.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +98,6 @@
 		2C03E34E16CA2E0F00C7608A /* CRCHTTPHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRCHTTPHeaderCell.m; path = view/CRCHTTPHeaderCell.m; sourceTree = "<group>"; };
 		2C954AF816B9799D00C8D54B /* NSData+gzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+gzip.h"; path = "request/NSData+gzip.h"; sourceTree = "<group>"; };
 		2C954AF916B9799D00C8D54B /* NSData+gzip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+gzip.m"; path = "request/NSData+gzip.m"; sourceTree = "<group>"; };
-		2C954AFC16B97A3200C8D54B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
 		510FDE3017036FDC0024972E /* MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePack.h; sourceTree = "<group>"; };
 		510FDE3117036FDC0024972E /* MessagePackPacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePackPacker.h; sourceTree = "<group>"; };
 		510FDE3217036FDC0024972E /* MessagePackPacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagePackPacker.m; sourceTree = "<group>"; };
@@ -130,12 +132,16 @@
 		510FDE5117036FDC0024972E /* NSDictionary+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MessagePack.m"; sourceTree = "<group>"; };
 		510FDE5217036FDC0024972E /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
 		5704EE69155B533200C55656 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
-		5704EE6B155B540900C55656 /* MGSFragaria.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MGSFragaria.framework; sourceTree = "<group>"; };
 		5704EE83155B9C4200C55656 /* HighlightedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighlightedTextView.h; path = view/HighlightedTextView.h; sourceTree = "<group>"; };
 		5704EE84155B9C4200C55656 /* HighlightedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HighlightedTextView.m; path = view/HighlightedTextView.m; sourceTree = "<group>"; };
 		5704EECF155C7BF400C55656 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* CocoaRestClient-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CocoaRestClient-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* CocoaRestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaRestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E03218419EDAAB800CE305B /* MGSFragaria.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MGSFragaria.framework; sourceTree = "<group>"; };
+		8E03218619EDAB1D00CE305B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8E03218819EDAB2700CE305B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8E03218E19EDABCD00CE305B /* Syntax Definitions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Syntax Definitions"; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions"; sourceTree = "<group>"; };
+		8E03218F19EDABCD00CE305B /* SyntaxDefinitions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SyntaxDefinitions.plist; path = MGSFragaria.framework/Versions/A/Resources/SyntaxDefinitions.plist; sourceTree = "<group>"; };
 		AF074F4B10F595AF00EE44D8 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = JSON/JSON.h; sourceTree = "<group>"; };
 		AF074F4C10F595AF00EE44D8 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJSON.h"; path = "JSON/NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		AF074F4D10F595AF00EE44D8 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJSON.m"; path = "JSON/NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -149,7 +155,6 @@
 		AF074F5510F595AF00EE44D8 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = JSON/SBJsonParser.m; sourceTree = "<group>"; };
 		AF074F5610F595AF00EE44D8 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = JSON/SBJsonWriter.h; sourceTree = "<group>"; };
 		AF074F5710F595AF00EE44D8 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = JSON/SBJsonWriter.m; sourceTree = "<group>"; };
-		AF2D9EFF145F908100B8220F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		AF7A149A113B583A00F0D6F5 /* cocoaRestClient.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = cocoaRestClient.icns; path = English.lproj/cocoaRestClient.icns; sourceTree = "<group>"; };
 		AF7CE5A417618BF80080363B /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		AF7CE5A517618BF80080363B /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
@@ -197,13 +202,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C954AFD16B97A3200C8D54B /* libz.dylib in Frameworks */,
+				8E03218919EDAB2800CE305B /* Security.framework in Frameworks */,
+				8E03218719EDAB1D00CE305B /* libz.dylib in Frameworks */,
 				AF89587615608E9D0079B379 /* QuartzCore.framework in Frameworks */,
 				5704EED0155C7BF400C55656 /* WebKit.framework in Frameworks */,
 				5704EE6A155B533200C55656 /* libicucore.dylib in Frameworks */,
+				8E03218519EDAAB800CE305B /* MGSFragaria.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				AFCE79531419B47900E22468 /* Sparkle.framework in Frameworks */,
-				5704EE6C155B540900C55656 /* MGSFragaria.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +261,6 @@
 				AF895874156088610079B379 /* QuartzCore.framework */,
 				5704EECF155C7BF400C55656 /* WebKit.framework */,
 				5704EE69155B533200C55656 /* libicucore.dylib */,
-				AF2D9EFF145F908100B8220F /* Security.framework */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -277,6 +282,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8E03218E19EDABCD00CE305B /* Syntax Definitions */,
+				8E03218F19EDABCD00CE305B /* SyntaxDefinitions.plist */,
 				AFCE79561419B54600E22468 /* dsa_pub.pem */,
 				AFE1837612E394E5001B1B29 /* LICENSE.txt */,
 				D7D998B511EAA2B2005B8811 /* background-header.png */,
@@ -295,8 +302,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2C954AFC16B97A3200C8D54B /* libz.dylib */,
-				5704EE6B155B540900C55656 /* MGSFragaria.framework */,
+				8E03218819EDAB2700CE305B /* Security.framework */,
+				8E03218619EDAB1D00CE305B /* libz.dylib */,
+				8E03218419EDAAB800CE305B /* MGSFragaria.framework */,
 				AFCE79521419B47900E22468 /* Sparkle.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
@@ -474,7 +482,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0600;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CocoaRestClient" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -506,7 +514,9 @@
 				AFCE79571419B54600E22468 /* dsa_pub.pem in Resources */,
 				AFBF08BD14C1E9BB000E7411 /* ExportRequests.xib in Resources */,
 				AFBB7D4B14F98B4000424C12 /* Preferences.xib in Resources */,
+				8E03219119EDABCD00CE305B /* SyntaxDefinitions.plist in Resources */,
 				AFA11AB515CEDA3600831738 /* Welcome.xib in Resources */,
+				8E03219019EDABCD00CE305B /* Syntax Definitions in Resources */,
 				AFA11ACD15CF036300831738 /* motd.txt in Resources */,
 				510FDE5E17036FDC0024972E /* readme.md in Resources */,
 			);
@@ -601,14 +611,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(executable_path)",
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_GC = required;
+				GCC_ENABLE_OBJC_GC = unsuported;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -617,6 +630,7 @@
 				HEADER_SEARCH_PATHS = core;
 				INFOPLIST_FILE = "CocoaRestClient-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = CocoaRestClient;
 				SDKROOT = macosx;
 			};
@@ -626,13 +640,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(executable_path)",
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
-				GCC_ENABLE_OBJC_GC = required;
+				GCC_ENABLE_OBJC_GC = unsuported;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = core/CocoaRestClient_Prefix.pch;
@@ -640,6 +657,7 @@
 				HEADER_SEARCH_PATHS = core;
 				INFOPLIST_FILE = "CocoaRestClient-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = CocoaRestClient;
 				SDKROOT = macosx;
 			};
@@ -648,7 +666,6 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_OPTIMIZATION_LEVEL = s;
@@ -664,7 +681,6 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_VERSION = "";

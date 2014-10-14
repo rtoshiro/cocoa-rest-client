@@ -34,10 +34,12 @@ Unless required by applicable law or agreed to in writing, software distributed 
 	NSCursor *colouredIBeamCursor;
 	
 	MGSFragaria *fragaria;
+    BOOL lineWrap;
 }
 
-@property (retain) NSCursor *colouredIBeamCursor;
-@property (assign) MGSFragaria *fragaria;
+@property (strong) NSCursor *colouredIBeamCursor;
+@property (strong) MGSFragaria *fragaria;
+@property (nonatomic) BOOL lineWrap;
 
 - (void)setDefaults;
 
@@ -48,8 +50,11 @@ Unless required by applicable law or agreed to in writing, software distributed 
 - (void)setTabWidth;
 
 - (void)setPageGuideValues;
-
 - (void)updateIBeamCursor;
 
 - (void)setString:(NSString *)text options:(NSDictionary *)options;
+- (void)setAttributedString:(NSAttributedString *)text;
+- (void)setAttributedString:(NSAttributedString *)text options:(NSDictionary *)options;
+- (void)updateLineWrap;
+- (void)replaceCharactersInRange:(NSRange)range withString:(NSString *)text options:(NSDictionary *)options;
 @end
